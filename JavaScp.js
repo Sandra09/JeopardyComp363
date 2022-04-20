@@ -13,6 +13,7 @@ class Triva{
         //Elements
         this.boardElement = element.querySelector(".board");
         this.scoreCountElement = element.querySelector(".score-count");
+        this.scoreCountElement1 = element.querySelector(".score2-count");
         this.formElement = element.querySelector("form");
         this.inputElement = element.querySelector("input[name=user-answer]");
         this.modalElement = element.querySelector(".card-modal");
@@ -22,6 +23,16 @@ class Triva{
         this.successTextElement = element.querySelector(".success");
         this.failTextElement = element.querySelector(".fail");
     }
+
+    initGame(){
+        this.updateScore(0);
+    }
+    updateScore(change){
+        this.score += change;
+        this.scoreCountElement.textContent = this.score;
+        this.scoreCountElement1.textContent = this.score;
+    }
 }
 
 const game = new Triva( document.querySelector( ".app"), {});
+game.initGame();
