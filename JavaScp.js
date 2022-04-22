@@ -36,3 +36,5 @@ class Triva{
 
 const game = new Triva( document.querySelector( ".app"), {});
 game.initGame();
+
+
