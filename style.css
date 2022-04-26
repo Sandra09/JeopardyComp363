@@ -65,7 +65,8 @@ tr{
       height: 100%; /* Full height */
       /*overflow: auto; /* Enable scroll if needed */
     }
-    .btn{
+    .btn,.btn0,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,
+    .btn10,.btn11,.btn12,.btn13,.btn14,.btn15,.btn16,.btn17,.btn18{
         border: none;
         font-size: 2vw;
         text-decoration: underline;
@@ -83,7 +84,87 @@ tr{
       position: fixed;
       color: black;
     }
-    .btn:hover{
+    .btn:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn0:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn1:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn2:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn3:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn4:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn5:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn6:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn7:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn8:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn9:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn10:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn11:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn12:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn13:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn14:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn15:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn16:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn17:hover {
+        font-size:2.3vw;
+        color: #FBF5B7;
+    }
+    .btn18:hover {
         font-size:2.3vw;
         color: #FBF5B7;
     }
