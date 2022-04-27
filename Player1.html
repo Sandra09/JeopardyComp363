@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <title>Jeopardy</title>
     <link rel="stylesheet" href="style.css">
+<!--    <script type="text" src="JavaScp.js"></script>-->
+
 </head>
 <div class="app">
     <header class="top-header">
         <h1 style="center">Jeopardy</h1>
-        <p id="score"> Score: <span id="score-count"></span></p>
+        <p id="score">
+            <span id="result-name"></span>'s
+            <script>
+                document.getElementById("result-name").innerHTML=localStorage.getItem("textvalue");
+            </script>
+             Score: <span id="score-count"></span>
+        </p>
     </header>
     <body>
     <div class="board">
@@ -463,28 +471,6 @@
     </div>
     </body>
     <script>
-
-
-    var player = document.querySelector("button");
-    player.addEventListener("click", clickHandler, false);
-
-    var score = 0;
-    var p = document.querySelector("#score-count");
-    function clickHandler(){
-        score += 100;
-        p.innerHTML = score;
-    }
-<!--    function incrementClick() {-->
-<!--        updateDisplay(score+=100);-->
-<!--    }-->
-<!--    function updateDisplay(score) {-->
-<!--        document.getElementById("score-count").innerHTML = score;-->
-<!--    }-->
-<!--    var scoreCountElement = element.querySelector("score-count");-->
-<!--    updateScore(change){-->
-<!--        score += change;-->
-<!--        scoreCountElement.textContent = this.score;-->
-<!--    }-->
 
     var modal = document.getElementById("myModal");
     var modal0 = document.getElementById("myModal0");

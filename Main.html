@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Jeopardy</title>
     <link rel="stylesheet" href="style.css">
+<!--    <script src="JavaScp.js"></script>-->
 </head>
 <div class="app">
     <header class="top-header">
@@ -461,11 +462,22 @@
             </tr>
         </table>
     <table align="center" border="1" width="900" height="100">
-        <th>Player 1 Score: <span class="score-count"></span></th><th>Player 2 Score: <span class="score2-count"></span></th>
+        <th>
+            <span id="result-name"></span>'s Score: <span id="score-count0"></span>
+            <script>
+                document.getElementById("result-name").innerHTML=localStorage.getItem("textvalue");
+            </script>
+        </th>
+        <th>
+            <span id="result-name0"></span>'s Score: <span id="score-count1"></span>
+            <script>
+                document.getElementById("result-name0").innerHTML=localStorage.getItem("textvalue0");
+            </script>
+        </th>
     </table>
 </div>
-<script src="JavaScp.js"></script>
 <script>
+
     var modal = document.getElementById("myModal");
     var modal0 = document.getElementById("myModal0");
     var modal1 = document.getElementById("myModal1");
