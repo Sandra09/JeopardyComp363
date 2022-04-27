@@ -5,9 +5,9 @@
     <title>Instructions</title>
 </head>
 <style>
-    p.one {
+p.one {
     border-style: solid;
-    border-color: white;
+    border-color: #ffdb58;
     border-width: 10px;
     width: 1000px;
     height: 500px;
@@ -48,7 +48,7 @@
 }
 
 .button1:hover {
-  background-color: #000000;
+  background-color: #ffdb58;
   color: white;
 }
 .button2 {
@@ -64,10 +64,32 @@
 }
 
 .button2:hover {
-  background-color: #000000;
+  background-color: #ffdb58;
   color: white;
 }
 
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -90,11 +112,10 @@
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
-  float: right;
+  float: top right;
   font-size: 28px;
   font-weight: bold;
 }
@@ -105,32 +126,84 @@
   text-decoration: none;
   cursor: pointer;
 }
+.close2 {
+  color: #aaaaaa;
+  float: top right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.popup{
+    background: white;
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+
+}
+input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding:8px;
+    border: 1px solid gray;
+}
+
 
 
 </style>
 
-<body style="background-color:black;" >
+<body style="background-color:maroon;" >
 <p class="one" style="color:white; text-align:center; font-size:250%;"> INSTRUCTIONS:</p>
-<p class="right" style="color:gray; font-size:150%; text-align:center;">
+<p class="right" style="color:white; font-size:150%; text-align:center;">
     The Player/Players have one minute to answer each selected question correctly. If the answer is correct, the player/players earn the amount of points the question was worth.
     That is, they earn 100 points for a 100 question.  </p>
 
-<p><a href="Player1.html" class="button button1"><b>1 PLAYERS</b></a></p>
+<button class="button button2" id="myBtn"><b>2 PLAYERS</b> </button>
 
-
-<button href=" " class="button button2" id="myBtn"><b>2 PLAYERS</b></button>
+<button class="button button1" id="myBtn2"><b>1 PLAYERS</b> </button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span class="close">&times;</span>
         <p>Enter Player Name.</p>
+        <input type="text" placeholder="1st Player Name:">
+        <input type="text" placeholder="2nd Player Name:">
+        <span class="close">&times;</span>
     </div>
 
 </div>
+<div id="myModal2" class="modal2">
 
+    <!-- Modal content -->
+    <div class="modal-content2">
+        <p>Enter Player Name.</p>
+        <input type="text" placeholder="Player Name:">
+        <span class="close2">&times;</span>
+    </div>
+
+</div>
 <script>
 // Get modal
 var modal = document.getElementById("myModal");
@@ -157,6 +230,35 @@ window.onclick = function(event) {
   }
 }
 </script>
+<script>
+// Get modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on the x it closes
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+</script>
+
+
+
 
 </body>
 
