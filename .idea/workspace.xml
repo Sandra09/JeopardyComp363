@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7867ed3-255d-4311-a5d3-df438f5df784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModifiedSwingComp363.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrontPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubmitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Toolbar.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7867ed3-255d-4311-a5d3-df438f5df784" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +59,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650993955990</updated>
     </task>
+    <task id="LOCAL-00001" summary="gui">
+      <created>1651031350719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651031350719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="gui" />
   </component>
 </project>
