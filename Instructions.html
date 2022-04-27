@@ -188,23 +188,41 @@ input{
     <!-- Modal content -->
     <div class="modal-content">
         <p>Enter Player Name.</p>
-        <input type="text" placeholder="1st Player Name:">
-        <input type="text" placeholder="2nd Player Name:">
-        <span class="close">&times;</span>
+        <form action="Main.html">
+            <input type="text" id="name0" placeholder="1st Player Name:">
+            <input type="text" id="name1" placeholder="2nd Player Name:">
+            <input type="submit" value="click" onclick="passvalues();"/>
+            <span class="close">&times;</span>
+        </form>
     </div>
 
 </div>
 <div id="myModal2" class="modal2">
-
+eee
     <!-- Modal content -->
     <div class="modal-content2">
-        <p>Enter Player Name.</p>
-        <input type="text" placeholder="Player Name:">
-        <span class="close2">&times;</span>
+        <p id="player">Enter Player Name.</p>
+        <form action="Player1.html">
+            <input type="text" id="txt" placeholder="Player Name:"/>
+            <input type="submit" value="click" onclick="passvalues();" />
+            <span class="close2">&times;</span>
+        </form>
     </div>
 
 </div>
 <script>
+// Get player name
+function passvalues() {
+    var name = document.getElementById("txt").value;
+    var name0 = document.getElementById("name0").value;
+    var name1 = document.getElementById("name1").value;
+
+    localStorage.setItem("textvalue", name);
+    localStorage.setItem("textvalue0", name0);
+    localStorage.setItem("textvalue1", name1);
+    return false;
+}
+
 // Get modal
 var modal = document.getElementById("myModal");
 

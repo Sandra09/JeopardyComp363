@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bb316a-c3f6-4a12-9aff-4704a1c0fc3e" name="Changes" comment="I had to delete the old files and add these ones in. I'm now in the repository and this should be up to date." />
+    <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="player name updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="28N01BeqrjV6tR2SLBJs1BlhveG" />
+  <component name="ProjectId" id="27iDCgGdTc9wuLUmDRFiEKDSPa6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,24 +26,137 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5bb316a-c3f6-4a12-9aff-4704a1c0fc3e" name="Changes" comment="" />
-      <created>1651041518444</created>
+      <changelist id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="" />
+      <created>1649793887030</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651041518444</updated>
+      <updated>1649793887030</updated>
     </task>
-    <task id="LOCAL-00001" summary="I had to delete the old files and add these ones in. I'm now in the repository and this should be up to date.">
-      <created>1651042013213</created>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1649794030200</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1651042013213</updated>
+      <updated>1649794030200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1649794044835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794044835</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes">
+      <created>1649794079832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794079832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changes">
+      <created>1649794400276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794400276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes">
+      <created>1649794494696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794494696</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changes">
+      <created>1649816248930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649816248930</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes">
+      <created>1649862997573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649862997574</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changes">
+      <created>1649864060543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649864060543</updated>
+    </task>
+    <task id="LOCAL-00009" summary="temp score code">
+      <created>1650495711082</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650495711083</updated>
+    </task>
+    <task id="LOCAL-00010" summary="player1 updates">
+      <created>1650596104197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650596104198</updated>
+    </task>
+    <task id="LOCAL-00011" summary="player1 updates">
+      <created>1650596156296</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650596156296</updated>
+    </task>
+    <task id="LOCAL-00012" summary="player1 updates">
+      <created>1650597435514</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650597435514</updated>
+    </task>
+    <task id="LOCAL-00013" summary="player1 updates">
+      <created>1651011126633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651011126633</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updates">
+      <created>1651043599712</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651043599712</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updates to player name">
+      <created>1651083846662</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651083846662</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updated player name">
+      <created>1651084023546</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651084023546</updated>
+    </task>
+    <task id="LOCAL-00017" summary="player name updates">
+      <created>1651085227202</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085227202</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,7 +172,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I had to delete the old files and add these ones in. I'm now in the repository and this should be up to date." />
-    <option name="LAST_COMMIT_MESSAGE" value="I had to delete the old files and add these ones in. I'm now in the repository and this should be up to date." />
+    <MESSAGE value="changes" />
+    <MESSAGE value="temp score code" />
+    <MESSAGE value="player1 updates" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="updates to player name" />
+    <MESSAGE value="updated player name" />
+    <MESSAGE value="player name updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="player name updates" />
   </component>
 </project>
