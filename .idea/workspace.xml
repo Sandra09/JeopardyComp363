@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="player name updates" />
+    <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="player name updates">
+      <change beforePath="$PROJECT_DIR$/Instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
