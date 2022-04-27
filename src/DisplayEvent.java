@@ -1,7 +1,17 @@
 import java.util.EventObject;
 
 public class DisplayEvent extends EventObject {
-  private int s1;
+    private int x;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    private int s1;
   private int s2;
   private int s3;
   private int s4;
@@ -186,7 +196,7 @@ public class DisplayEvent extends EventObject {
     }
 
     private int c5;
-    public DisplayEvent(Object source, int s1,int s2, int s3, int s4, int s5, int m1,int m2, int m3, int m4, int m5,int d1, int d2, int d3, int d4, int d5, int c1, int c2, int c3, int c4,int c5 ) {
+    public DisplayEvent(Object source, int s1,int s2, int s3, int s4, int s5, int m1,int m2, int m3, int m4, int m5,int d1, int d2, int d3, int d4, int d5, int c1, int c2, int c3, int c4,int c5, int x ) {
         super(source);
         this.s1= s1;
         this.s2=s2;
@@ -212,7 +222,7 @@ public class DisplayEvent extends EventObject {
         this.c4=c4;
         this.c5=c5;
 
-
+        this.x = x;
     }
 
 }

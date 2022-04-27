@@ -1,6 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.UnsupportedEncodingException;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
+import java.util.Random;
 
 public class Mainframe extends JFrame {
 
@@ -10,6 +17,13 @@ public class Mainframe extends JFrame {
     private   JButton back ;
   private  Toolbar toolbar;
 
+  private TableFrame tableFrame;
+
+  private TablePanel tablePanel;
+
+  private static String password;
+
+    private PasswordDialog passwordDialog;
     int  totalPoints=0;
     public Mainframe(){
         super("Jeopardy Game");
@@ -22,9 +36,15 @@ public class Mainframe extends JFrame {
         displayPanel = new DisplayPanel();
         textArea = new JTextArea();
         toolbar = new Toolbar();
+        passwordDialog = new PasswordDialog(Mainframe.this);
+        tableFrame = new TableFrame(Mainframe.this);
+        password = "complete";
+        tablePanel = new TablePanel();
 
         back = new JButton("Back");
         String correctAnswer = "";
+
+        setJMenuBar(createMenuBar());
 
     add(toolbar, BorderLayout.NORTH);
 
@@ -35,6 +55,39 @@ public class Mainframe extends JFrame {
      @Override
      public void display(DisplayEvent event) {
          questionPanel.submit.setVisible(true);
+         if(event.getX()==20){
+
+
+             try {
+                 Random random = new Random();
+                 password = String.valueOf(random.nextInt());
+                 encryptPassword(password);
+                 toolbar.textArea.setEnabled(true);
+                 toolbar.textArea.setText(encryptPassword(password));
+                 passwordDialog.setVerifyListener(new VerifyListener() {
+                     String answer = encryptPassword(password);
+                     @Override
+
+                     public void checkPassword(String check) {
+                         if(check.equals(answer)){
+                            tableFrame.setVisible(true);
+                         }
+                         else{
+                             System.out.println("wrong");
+                         }
+
+                     }
+                 });
+
+
+             } catch (NoSuchAlgorithmException e) {
+                 throw new RuntimeException(e);
+             } catch (UnsupportedEncodingException e) {
+                 throw new RuntimeException(e);
+             }
+
+         }
+
         if(event.getC1()!=0){
             questionPanel.setVisible(true);
             questionPanel.setQuestionText(celebrityHash(event.getC1()));
@@ -42,7 +95,6 @@ public class Mainframe extends JFrame {
                @Override
                public void setControl(SubmitEvent e) {
                    String answer = e.getAnswer();
-                   System.out.println(answer);
                    if(answer.equals(celebrityHashAnswers(event.getC1()))){
                        questionPanel.correct.setVisible(true);
                        totalPoints+=100;
@@ -154,7 +206,6 @@ public class Mainframe extends JFrame {
         else if (event.getD2()!=0){
             questionPanel.setVisible(true);
             questionPanel.setQuestionText(disneyHash(event.getD2()));
-            System.out.println(celebrityHashAnswers(event.getD2()));
             questionPanel.setSubmitListener(new SubmitListener() {
                 @Override
                 public void setControl(SubmitEvent e) {
@@ -416,7 +467,6 @@ public class Mainframe extends JFrame {
                 }
             });
         }
-
      }
  });
    };
@@ -521,6 +571,28 @@ public class Mainframe extends JFrame {
 
         return answers.get(d1);
     }
+    private static String encryptPassword(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 
+        MessageDigest crypt = MessageDigest.getInstance("SHA-1");
+        crypt.reset();
+        crypt.update(password.getBytes("UTF-8"));
 
+        return new BigInteger(1, crypt.digest()).toString(16);
+    }
+ private JMenuBar createMenuBar(){
+        JMenuBar menuBar = new JMenuBar();
+
+        JMenu fileMenu = new JMenu("File");
+       JMenuItem showPassword = new JMenuItem("Get Answers");
+       fileMenu.add(showPassword);
+        menuBar.add(fileMenu);
+
+        showPassword.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                passwordDialog.setVisible(true );
+            }
+        });
+     return menuBar;
+ }
 }

@@ -248,7 +248,7 @@ gc.fill= GridBagConstraints.NONE;
 
 
     }
-
+int x;
     @Override
     public void actionPerformed(ActionEvent e) {
 
@@ -286,78 +286,98 @@ gc.fill= GridBagConstraints.NONE;
          if(e.getSource()==s1){
               s11 = Integer.parseInt(s1.getText());
               s1.setVisible(false);
+              x+=1;
          }
          else if (e.getSource()==s2){
              s22 = Integer.parseInt(s2.getText());
              s2.setVisible(false);
+             x+=1;
          }
          else if(e.getSource()==s3){
              s33 = Integer.parseInt(s3.getText());
              s3.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==s4){
              s44 = Integer.parseInt(s4.getText());
              s4.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==s5){
              s55 = Integer.parseInt(s5.getText());
              s5.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==m1){
              m11 = Integer.parseInt(m1.getText());
              m1.setVisible(false);
+             x+=1;
          } else if (e.getSource()==m2){
              m22 = Integer.parseInt(m2.getText());
              m2.setVisible(false);
+             x+=1;
          } else if (e.getSource()==m3){
              m33 = Integer.parseInt(m3.getText());
              m3.setVisible(false);
+             x+=1;
          } else if (e.getSource()==m4){
              m44 = Integer.parseInt(m4.getText());
              m4.setVisible(false);
+             x+=1;
          } else if (e.getSource()==m5){
              m55 = Integer.parseInt(m5.getText());
              m5.setVisible(false);
+             x+=1;
          } else if (e.getSource()==d1){
              d11 = Integer.parseInt(d1.getText());
              d1.setVisible(false);
+             x+=1;
          } else if (e.getSource()==d2){
              d22 = Integer.parseInt(d2.getText());
              d2.setVisible(false);
+             x+=1;
          } else if (e.getSource()==d3){
              d33 = Integer.parseInt(d3.getText());
              d3.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==d4){
              d44 = Integer.parseInt(d4.getText());
              d4.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==d5){
              d55 = Integer.parseInt(d5.getText());
              d5.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==c1){
              c11 = Integer.parseInt(c1.getText());
              c1.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==c2){
              c22 = Integer.parseInt(c2.getText());
              c2.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==c3){
              c33 = Integer.parseInt(c3.getText());
              c3.setVisible(false);
+             x+=1;
          }
          else if (e.getSource()==c4){
              c44 = Integer.parseInt(c4.getText());
              c4.setVisible(false);
+             x+=1;
          } else if (e.getSource()==c5){
              c55 = Integer.parseInt(c5.getText());
              c5.setVisible(false);
+             x+=1;
          }
 
 
-         DisplayEvent dispatchEvent = new DisplayEvent(this, s11,s22,s33,s44,s55,m11,m22,m33,m44,m55,d11,d22,d33,d44,d55,c11,c22,c33,c44,c55);
+         DisplayEvent dispatchEvent = new DisplayEvent(this, s11,s22,s33,s44,s55,m11,m22,m33,m44,m55,d11,d22,d33,d44,d55,c11,c22,c33,c44,c55,x);
          questionListener.display(dispatchEvent);
      }
 

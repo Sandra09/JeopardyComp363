@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7867ed3-255d-4311-a5d3-df438f5df784" name="Changes" comment="" />
+    <list default="true" id="a7867ed3-255d-4311-a5d3-df438f5df784" name="Changes" comment="gui">
+      <change afterPath="$PROJECT_DIR$/src/AnswerTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DisplayEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DisplayPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mainframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mainframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Toolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toolbar.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,5 +92,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gui" />
     <option name="LAST_COMMIT_MESSAGE" value="gui" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordDialog.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Store.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
