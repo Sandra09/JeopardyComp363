@@ -63,6 +63,7 @@ tr{
       height: 100%; /* Full height */
       overflow: auto; /* Enable scroll if needed */
     }
+
     .btn,.btn0,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,
     .btn10,.btn11,.btn12,.btn13,.btn14,.btn15,.btn16,.btn17,.btn18{
         border: none;
