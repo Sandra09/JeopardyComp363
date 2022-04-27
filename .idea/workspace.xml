@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="updated player name">
-      <change afterPath="$PROJECT_DIR$/JavaScp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main.html" afterDir="false" />
-    </list>
+    <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="player name updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651084023546</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="player name updates">
+      <created>1651085227202</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085227202</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +178,7 @@
     <MESSAGE value="updates" />
     <MESSAGE value="updates to player name" />
     <MESSAGE value="updated player name" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated player name" />
+    <MESSAGE value="player name updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="player name updates" />
   </component>
 </project>
