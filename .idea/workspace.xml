@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fe8ed9-9aa1-4dc1-be55-40e610a5bd46" name="Default Changelist" comment="player name updates">
-      <change beforePath="$PROJECT_DIR$/Instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITest/Inst.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITest/Wel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Celebrity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instructions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Welcome page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/introTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprtsHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27iDCgGdTc9wuLUmDRFiEKDSPa6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
