@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="app">
+        <head>
+            <meta charset="UTF-8">
+            <title>Jeopardy</title>
+            <link rel="stylesheet" href="WorkingAPIStyle.css">
+        </head>
+        <header class="top-header">
+          <h1>Jeopardy</h1>
+
+            <p id="score" class="score">
+                <span id="result-name"></span>'s
+                <script>
+                    document.getElementById("result-name").innerHTML=localStorage.getItem("textvalue");
+                </script>
+                 Score: <span id="score-count" class="score-count0"></span>
+            </p>
+       </header>
+
+        <div class="board">
+        </div>
+
+        <div class="card-modal">
+           <div class=card-modal-inner>
+              <h2 class="clue-text"></h2>
+              <form autocomplete="off">
+                 <input name="user-answer" type="text" />
+                 <button type="submit">Answer</button>
+              </form>
+              <div class="result">
+                 <p class="result_success">CORRECT</p>
+                 <p class="result_fail">INCORRECT</p>
+                 <p class="result_correct-answer">
+                    The correct answer is <span class="result_correct-answer-text"></span>
+                 </p>
+              </div>
+           </div>
+        </div>
+        <script src="JavaS.js"></script>
+    </div>
+</html>

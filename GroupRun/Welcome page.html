@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeopardy</title>
+    <style>
+#rcorners1 {
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  border: 10px solid #ffdb58;
+
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+.button {
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button1:hover {
+  background-color: #ffdb58;
+  color: white;
+}
+.cent {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+</style>
+</head>
+<div class="cent" style="color:white; text-align:center; font-size:250%; top: 20%; "> Welcome To</div>
+<!-- Background of whole screen, can be changed to image or different color -->
+<body style="background-color:maroon;" >
+
+<!-- This is the Jeopardy Image in the middle of the screen which can be changed if needed -->
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jeopardy%21_logo.svg/1280px-Jeopardy%21_logo.svg.png" alt="Rambler"  id="rcorners1" class="center"></div>
+
+<!-- Calling "Lets play!" button which will take us to the starting page -->
+<!-- <button class="button button1"><b>Lets Play!</b></button> also workds -->
+<p><a href="Instructions.html" class="button button1"><b>Lets Play</b></a></p>
+
+
+</body>
+</html>
